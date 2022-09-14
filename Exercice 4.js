@@ -8,20 +8,20 @@ let qtdOCalmos = 0
 let qtdNervosos40 = 0
 let qtdCalmos18 = 0
 
-while (i < 3) {
+while (i < 150) {
     const idadeText = prompt('\nDigite a idade: ')
     const idade = Number(idadeText)
-    console.log('\nSeu sexo é: \n\n')
+    console.log('\nSeu sexo é: \n')
     console.log('1 - Homem\n')
     console.log('2 - Mulher\n')
     console.log('3 - Outros\n')
     const sexoTest = prompt('Escolha a opção de sexo: ')
     const sexo = Number(sexoTest)
-    console.log('\nEscolha um humor: \n\n')
-    console.log('1- Calmo\n')
+    console.log('\nEscolha um humor: \n')
+    console.log('1 - Calmo\n')
     console.log('2 - Nervoso\n')
     console.log('3 - Agressivo\n')
-    const humorText = ('\nEscolha seu humor: ')
+    const humorText = prompt('\nEscolha seu humor: ')
     const humor = Number(humorText)
     i ++;
 
